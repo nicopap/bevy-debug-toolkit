@@ -1,0 +1,13 @@
+[package]
+name = "bevy-debug-toolkit"
+authors = ["Nicola Papale"]
+description = "An unified collection of crates for visual debugging."
+license = "MIT OR Apache-2.0"
+readme = "Readme.md"
+keywords = ["bevy", "debug", "render"]
+categories = ["game-development", "development-tools"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.6", default-features = false }
